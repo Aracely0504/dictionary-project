@@ -10,19 +10,34 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
 
         <footer className="App-footer">
           <small>
             This project was coded by{" "}
-            <a href="https://github.com/Aracely0504">Aracely Campos,</a> is{" "}
-            <a href="https://github.com/Aracely0504/dictionary-project">
+            <a
+              href="https://github.com/Aracely0504"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Aracely Campos,
+            </a>{" "}
+            is{" "}
+            <a
+              href="https://github.com/Aracely0504/dictionary-project"
+              rel="noreferrer"
+              target="_blank"
+            >
               {" "}
               open-sourced on Github
             </a>{" "}
             and
-            <a href="https://dictionary-app-shecodesio.netlify.app/">
+            <a
+              href="https://dictionary-app-shecodesio.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
               {" "}
               hosted on Netlify.
             </a>
